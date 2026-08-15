@@ -6,5 +6,9 @@
  * OpenAPI spec version: 1.0.0
  */
 
-export * from './getAuthenticatedUser200';
-export * from './getHealth200';
+export type GetAuthenticatedUser200 = {
+  id: number;
+  name: string;
+  email: string;
+  keycloak_id: string;
+};
