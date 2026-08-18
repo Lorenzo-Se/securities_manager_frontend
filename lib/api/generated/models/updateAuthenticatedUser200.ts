@@ -6,7 +6,7 @@
  * OpenAPI spec version: 1.0.0
  */
 
-export type GetAuthenticatedUser200 = {
+export type UpdateAuthenticatedUser200 = {
   id: number;
   name: string;
   email: string;
