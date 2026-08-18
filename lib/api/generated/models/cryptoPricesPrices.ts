@@ -6,6 +6,4 @@
  * OpenAPI spec version: 1.0.0
  */
 
-export type GetCryptoPrices200 = {[key: string]: {
-  eur?: number;
-}};
+export type CryptoPricesPrices = {[key: string]: number};

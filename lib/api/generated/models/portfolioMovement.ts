@@ -5,14 +5,13 @@
  * OpenAPI-Dokumentation für die Securities Manager API
  * OpenAPI spec version: 1.0.0
  */
+import type { PortfolioMovementType } from './portfolioMovementType';
 
-export interface Portfolio {
+export interface PortfolioMovement {
   id: number;
-  name: string;
-  crypto_id: string;
-  crypto_symbol: string;
-  crypto_name: string;
-  balance: string;
+  type: PortfolioMovementType;
+  amount: string;
+  date: string;
   created_at: string;
   updated_at: string;
 }
